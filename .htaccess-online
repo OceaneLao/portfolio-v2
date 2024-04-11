@@ -1,0 +1,8 @@
+RewriteEngine on
+
+DirectoryIndex index.html index.php /listing.php
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^oceanelao\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.oceanelao\.com$
+RewriteRule ^/?$ "https\:\/\/oceanelao\.com\/" [R=301,L]

@@ -1,0 +1,37 @@
+[
+  {
+    "picture": "assets/img/web_dynamique_javascript.png",
+    "title": "Portfolio",
+    "date": "04 Avril 2024",
+    "description": "Consultez la première version de mon portfolio créé et développé en pur Vanille Javascript. Le but étant de comprendre les fonctionnalités et les limites de ce langage.",
+    "url": "https://oceanelao.com/"
+  },
+  {
+    "picture": "assets/img/osez-la-gourmandise.png",
+    "title": "Osez La Gourmandise",
+    "date": "9 Avril 2024",
+    "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites de Wordpress.",
+    "url": "https://www.osezlagourmandise.com/"
+  },
+  {
+    "picture": "assets/img/php_to_do_list.png",
+    "title": "To do list",
+    "date": "14 Décembre 2023",
+    "description": "La to-do-list est un projet basé sur le langage de PHP.Ce projet est basé sur la méthode CRUD (Create, Read, Update and Delete) avec la manipulation de la base de données.",
+    "url": ""
+  },
+  {
+    "picture": "assets/img/vue_js_bts.png",
+    "title": "BTS",
+    "date": "7 Décembre 2023",
+    "description": "Ce projet est basé sur la pratique de VueJS ayant pour thème le célèbre groupe de K-pop : BTS. L'objectif étant de s'initier à ce langage et d'en comprendre le fonctionnement.",
+    "url": ""
+  },
+  {
+    "picture": "assets/img/web_statique_magic_shop.png",
+    "title": "Magic Shop",
+    "date": "14 Juillet 2023",
+    "description": "Magic Shop est un site web statique dans lequel le langage HTML et la feuille de style CSS ont été uniquement utilisés. De plus, l'adaptation à la taille des écrans a été intégrée.",
+    "url": ""
+  }
+]
