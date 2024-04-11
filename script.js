@@ -260,11 +260,10 @@ function displayIcons() {
 displayIcons();
 
 //Formulaire de contact
+// Tutoriel : https://www.youtube.com/watch?v=MV-Aqkjju64&ab_channel=AshisCoding
 function sendEmail(){
   Email.send({
-    Host : "smtp-relay.brevo.com",
-    Username : "oceane.lao1@gmail.com",
-    Password : "nKGFU17Larjz23xp",
+    SecureToken : "c4102fca-1914-4196-96e0-e7043891df1a",
     To : 'oceane.lao1@gmail.com',
     From : document.getElementById("email").value,
     Subject : "Contact form Portfolio",
