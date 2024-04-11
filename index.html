@@ -33,9 +33,21 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src ="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Portfolio LAO Océane</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/Oceane.png">
+    <link rel="icon" type="image/x-icon" href="/assets/img/Oceane.png" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="index.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "NYRdWigbBLLTmQsC_",
+        });
+      })();
+    </script>
   </head>
 
   <body class="text-light">
@@ -79,10 +91,19 @@
         </div>
         <div class="col-lg-8 col-sm-12">
           <p>
-            Dans une ère où les nouvelles technologies et le monde numérique sont ominiprésents, je continue à essayer de comprendre comment ces nouveautés peuvent fonctionner... Je m'appelle Océane, j'ai 27 ans et je suis actuellement en formation pour devenenir Développeuse Web. Diplômée du titre professionnel Concepteur Designer UI, je suis à la recherche de nouvelles opportunités dans le domaine du web. De mon temps libre, j'ai une réelle passion pour le dessin, les jeux vidéos et je booste mon cardio.
+            Dans une ère où les nouvelles technologies et le monde numérique
+            sont ominiprésents, je continue à essayer de comprendre comment ces
+            nouveautés peuvent fonctionner... Je m'appelle Océane, j'ai 27 ans
+            et je suis actuellement en formation pour devenenir Développeuse
+            Web. Diplômée du titre professionnel Concepteur Designer UI, je suis
+            à la recherche de nouvelles opportunités dans le domaine du web. De
+            mon temps libre, j'ai une réelle passion pour le dessin, les jeux
+            vidéos et je booste mon cardio.
           </p>
           <button class="text-center">
-            <a href="#contact" class="text-decoration-none text-dark">Contactez-moi</a>
+            <a href="#contact" class="text-decoration-none text-dark"
+              >Contactez-moi</a
+            >
           </button>
         </div>
       </div>
@@ -94,31 +115,38 @@
       <div class="icons-container container text-center"></div>
 
       <p class="mt-3 mb-3">N'hésitez pas à prendre contact avec moi !</p>
-      <div class="container d-flex justify-content-center">
-        <form 
-        onsubmit="sendEmail(); reset(); return false;"
-        action="POST" 
-        class="d-flex flex-column">
-          <input type="text" id="name" placeholder="Entrez votre nom" class="mb-3 p-2" required/>
+        
+        <div
+          class="form-group container d-flex flex-column justify-content-center"
+          onsubmit="sendEmail(); reset(); return false;"
+          class="d-flex flex-column"
+        >
           <input
-            type="email" id="email"
+            type="text"
+            id="name"
+            placeholder="Entrez votre nom"
+            class="form-control mb-3 p-2"
+            required
+          />
+          <input
+            type="email"
+            id="email"
             placeholder="Entrez votre adresse e-mail"
-            class="mb-3 p-2 w-lg-75"
-          required/>
+            class="form-control mb-3 p-2"
+            required
+          />
           <textarea
             id="message"
-            cols="30"
-            rows="6"
+            rows="5"
             placeholder="Ecrivez votre message"
-            class="mb-3 p-2 w-lg-75"
-          required></textarea>
-          <div class="button-submit">
-            <button type="submit">Envoyez</button>
-          </div>
-        </form>
+            class="form-control mb-3 p-2"
+            required
+          ></textarea>
       </div>
-      
-    </div>
+        <div class="button-submit">
+          <button type="submit" onclick="sendMail()">Envoyez</button>
+        </div>
+      </div>
 
     <footer class="container pt-2 pb-2">
       <p class="text-center">Portofolio - LAO Océane</p>
