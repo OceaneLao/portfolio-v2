@@ -10,7 +10,7 @@
     "picture": "assets/img/osez-la-gourmandise.png",
     "title": "Osez La Gourmandise",
     "date": "9 Avril 2024",
-    "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites de Wordpress.",
+    "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites.",
     "url": "https://www.osezlagourmandise.com/"
   },
   {
@@ -25,13 +25,13 @@
     "title": "BTS",
     "date": "7 Décembre 2023",
     "description": "Ce projet est basé sur la pratique de VueJS ayant pour thème le célèbre groupe de K-pop : BTS. L'objectif étant de s'initier à ce langage et d'en comprendre le fonctionnement.",
-    "url": ""
+    "url": "https://oceanelao.github.io/my-gallery-bts/"
   },
   {
     "picture": "assets/img/web_statique_magic_shop.png",
     "title": "Magic Shop",
     "date": "14 Juillet 2023",
     "description": "Magic Shop est un site web statique dans lequel le langage HTML et la feuille de style CSS ont été uniquement utilisés. De plus, l'adaptation à la taille des écrans a été intégrée.",
-    "url": ""
+    "url": "https://oceanelao.github.io/magic-shop/"
   }
 ]
