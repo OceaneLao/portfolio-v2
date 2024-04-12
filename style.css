@@ -41,12 +41,22 @@ p{
   margin-bottom: 50px;
 }
 
+.homepage-text{
+  padding-left : 100px;
+}
+
 button {
   background-color: #fff;
   padding: 15px 50px;
   border-radius: 50px;
   border: "none";
   box-shadow: 5px 5px 15px #a024c2;
+}
+
+.homepage-gif{
+  width : 80%;
+  height : auto;
+  margin-right : 100px;
 }
 
 #latest-projects {
@@ -74,7 +84,15 @@ div.form-group {
     text-align: center;
   }
   .homepage-text {
-    margin: 0 50px;
+    width : 70%;
+    padding-left: 0px;
+    padding-right : 0px;
+  }
+
+  .homepage-gif{
+    width : 70%;
+    margin-left : 15px;
+    margin-right : 15px;
   }
 
   h2 {
