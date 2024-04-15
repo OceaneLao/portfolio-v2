@@ -46,11 +46,16 @@ p{
 }
 
 button {
-  background-color: #fff;
+  background-image: none;
   padding: 15px 50px;
   border-radius: 50px;
   border: "none";
+}
+
+button:hover{
+  background-color: #fff;
   box-shadow: 5px 5px 15px #a024c2;
+  transition-delay:0.2s;
 }
 
 .homepage-gif{
@@ -73,6 +78,17 @@ div.form-group {
 }
 
 @media screen and (max-width: 767px) {
+  .display-menu-mobile-first {
+    background-image: url("assets/img/Background_V1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width : 100%;
+    position : fixed;
+    top : 0px;
+  }
+
   .homepage-container {
     background-image: url("assets/img/Vertical_block_mobile_first.png");
     background-size: contain;
@@ -83,6 +99,7 @@ div.form-group {
     margin-top: 70px;
     text-align: center;
   }
+
   .homepage-text {
     width : 70%;
     padding-left: 0px;

@@ -27,20 +27,26 @@ function reveal() {
     }
   });
 }
-
 // Ajouter d'un écouteur d'événements de défilement à la fenêtre
 window.addEventListener("scroll", reveal);
-
 // Appeler la fonction reveal pour révéler les éléments visibles lors du chargement de la page
 reveal();
 
 // Déclarer une variable pour sélectionner nav
-let nav = document.querySelector("nav");
+const nav = document.querySelector("nav");
+
+function createNavItem(title, url){
+  const liMenu = document.createElement("li");
+  const link = document.createElement("a");
+  link.href = url;
+  liMenu.appendChild(link);
+  return liMenu;
+}
 
 // Déclarer une fonction pour afficher le Nav
 function displayNav() {
   // Créer un tableau avec les onglets et leurs liens
-  let menu = [
+  const menu = [
     {
       title: "Homepage",
       url: "#",
@@ -61,10 +67,10 @@ function displayNav() {
 
   // Utiliser la méthode for pour parcourir le tableau menu
   for (let i = 0; i < menu.length; i++) {
-    let liMenu = document.createElement("li");
+    const liMenu = document.createElement("li");
 
     // Créer un lien
-    let link = document.createElement("a");
+    const link = document.createElement("a");
     link.href = menu[i].url;
     link.textContent = menu[i].title;
 
@@ -97,15 +103,6 @@ function displayNav() {
             "class",
             "display-menu-mobile-first container d-flex justify-content-center align-items-center"
           );
-          displayMenuMobileFirst.style.position = "fixed";
-          displayMenuMobileFirst.style.top = "0px";
-          displayMenuMobileFirst.style.backgroundImage =
-            "url('assets/img/Background_V1.png')";
-          displayMenuMobileFirst.style.backgroundSize = "cover";
-          displayMenuMobileFirst.style.height = "700px";
-          displayMenuMobileFirst.style.width = "100%";
-          displayMenuMobileFirst.style.backgroundRepeat = "no-repeat";
-          displayMenuMobileFirst.style.backgroundPosition = "center";
           document.body.appendChild(displayMenuMobileFirst);
 
           // Afficher les onglets en version mobile first
@@ -152,6 +149,10 @@ function displayCards(cards) {
     document.getElementsByClassName("card-display")[0].appendChild(cardDisplay);
     cardDisplay.setAttribute("class", "col-lg-6 col-sm-12 mb-3");
 
+    let linkPictureCard = document.createElement("a");
+    linkPictureCard.href = card.url;
+    linkPictureCard.setAttribute("target", "_blank");
+    
     let pictureCard = new Image();
     pictureCard.src = card.picture;
     pictureCard.style.maxWidth = "100%";
@@ -160,6 +161,7 @@ function displayCards(cards) {
     pictureCard.style.marginRight = "auto";
     pictureCard.style.paddingBottom = "15px";
     pictureCard.style.display = "block";
+    pictureCard.setAttribute("alt", card.alt);
 
     let titleCard = document.createElement("h3");
     titleCard.textContent = card.title;
@@ -175,9 +177,11 @@ function displayCards(cards) {
     linkCard.textContent = "Voir le site";
     linkCard.style.color = "#fff";
     linkCard.style.textDecoration = "underline";
+    linkCard.setAttribute("target", "_blank");
 
     // Afficher les données dans le fichier HTML
-    cardDisplay.appendChild(pictureCard);
+    cardDisplay.appendChild(linkPictureCard);
+    linkPictureCard.appendChild(pictureCard);
     cardDisplay.appendChild(titleCard);
     cardDisplay.appendChild(dateCard);
     cardDisplay.appendChild(descriptionCard);

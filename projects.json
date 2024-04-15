@@ -4,41 +4,47 @@
     "title": "Crèche Pierre et le Loup",
     "date": "19 Février 2024 - 15 Avril 2024",
     "description": "Dans le cadre d'un stage de 2 mois, j'ai réalisé un site vitrine pour une crèche avec Wordpress. J'ai appris à utiliser la base de Wordpress, créer un thème et utiliser les extensions gratuites à disposition.",
-    "url": "https://oceane.cciformationlyon.fr/crechepierreetleloup/"
+    "url": "https://oceane.cciformationlyon.fr/crechepierreetleloup/",
+    "alt": "Crèche Pierre et le Loup mockup website"
   },
   {
     "picture": "assets/img/web_dynamique_javascript.png",
     "title": "Portfolio",
     "date": "12 Avril 2024",
     "description": "Consultez la première version de mon portfolio créé et développé en pur Vanille Javascript. Le but étant de comprendre les fonctionnalités et les limites de ce langage.",
-    "url": "https://oceanelao.github.io/portfolio/"
+    "url": "https://oceanelao.github.io/portfolio/",
+    "alt": "Portfolio mockup website"
   },
   {
     "picture": "assets/img/osez-la-gourmandise.png",
     "title": "Osez La Gourmandise",
     "date": "9 Avril 2024",
     "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites.",
-    "url": "https://www.osezlagourmandise.com/"
+    "url": "https://www.osezlagourmandise.com/",
+    "alt": "Osez La Gourmandise mockup website"
   },
   {
     "picture": "assets/img/php_to_do_list.png",
     "title": "To do list",
     "date": "14 Décembre 2023",
     "description": "La to-do-list est un projet basé sur le langage de PHP. Ce projet est basé sur la méthode CRUD (Create, Read, Update and Delete) avec la manipulation de la base de données.",
-    "url": ""
+    "url": "",
+    "alt": "To do list mockup website"
   },
   {
     "picture": "assets/img/vue_js_bts.png",
     "title": "BTS",
     "date": "7 Décembre 2023",
     "description": "Ce projet est basé sur la pratique de VueJS ayant pour thème le célèbre groupe de K-pop : BTS. L'objectif étant de s'initier à ce langage et d'en comprendre le fonctionnement.",
-    "url": "https://oceanelao.github.io/my-gallery-bts/"
+    "url": "https://oceanelao.github.io/my-gallery-bts/",
+    "alt": "BTS Vue JS mockup website"
   },
   {
     "picture": "assets/img/web_statique_magic_shop.png",
     "title": "Magic Shop",
     "date": "14 Juillet 2023",
     "description": "Magic Shop est un site web statique dans lequel le langage HTML et la feuille de style CSS ont été uniquement utilisés. De plus, l'adaptation à la taille des écrans a été intégrée.",
-    "url": "https://oceanelao.github.io/magic-shop/"
+    "url": "https://oceanelao.github.io/magic-shop/",
+    "alt": "Magic Shop mockup website"
   }
 ]
