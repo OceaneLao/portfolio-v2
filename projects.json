@@ -1,10 +1,17 @@
 [
   {
+    "picture": "assets/img/creche_pierre_et_le_loup.png",
+    "title": "Crèche Pierre et le Loup",
+    "date": "19 Février 2024 - 15 Avril 2024",
+    "description": "Dans le cadre d'un stage de 2 mois, j'ai réalisé un site vitrine pour une crèche avec Wordpress. J'ai appris à utiliser la base de Wordpress, créer un thème et utiliser les extensions gratuites à disposition.",
+    "url": "https://oceane.cciformationlyon.fr/crechepierreetleloup/"
+  },
+  {
     "picture": "assets/img/web_dynamique_javascript.png",
     "title": "Portfolio",
-    "date": "04 Avril 2024",
+    "date": "12 Avril 2024",
     "description": "Consultez la première version de mon portfolio créé et développé en pur Vanille Javascript. Le but étant de comprendre les fonctionnalités et les limites de ce langage.",
-    "url": "https://oceanelao.com/"
+    "url": "https://oceanelao.github.io/portfolio/"
   },
   {
     "picture": "assets/img/osez-la-gourmandise.png",

@@ -158,6 +158,7 @@ function displayCards(cards) {
     pictureCard.style.maxHeight = "100%";
     pictureCard.style.marginLeft = "auto";
     pictureCard.style.marginRight = "auto";
+    pictureCard.style.paddingBottom = "15px";
     pictureCard.style.display = "block";
 
     let titleCard = document.createElement("h3");
