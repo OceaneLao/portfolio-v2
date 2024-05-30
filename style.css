@@ -3,6 +3,12 @@ body {
   background-size: contain;
   background-position: center;
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased; /* Pour améliorer le rendu des polices sur Safari */
+  text-rendering: optimizeSpeed;
+  line-height: 1.6;
 }
 
 header,
@@ -16,18 +22,20 @@ h3 {
   font-family: "Chakra Petch", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-size : 40px;
+  font-size: 40px;
 }
 
-h2{
-    font-size : 35px;
+h2 {
+  font-size: 35px;
 }
 
-p{
-    font-size : 17px;
+p {
+  font-size: 17px;
 }
 
 .homepage-container {
@@ -41,27 +49,31 @@ p{
   margin-bottom: 50px;
 }
 
-.homepage-text{
-  padding-left : 100px;
+.homepage-text {
+  padding-left: 100px;
 }
 
 button {
   background-image: none;
   padding: 15px 50px;
   border-radius: 50px;
-  border: "none";
+  border: none;
+  cursor: pointer;
+  -webkit-transition: box-shadow 0.3s ease; /* Préfixe pour Safari */
+  transition: box-shadow 0.3s ease;
 }
 
-button:hover{
+button:hover {
   background-color: #fff;
   box-shadow: 5px 5px 15px #a024c2;
-  transition-delay:0.2s;
+  -webkit-transition: box-shadow 0.3s ease; /* Préfixe pour Safari */
+  transition: box-shadow 0.3s ease;
 }
 
-.homepage-gif{
-  width : 80%;
-  height : auto;
-  margin-right : 100px;
+.homepage-gif {
+  width: 80%;
+  height: auto;
+  margin-right: 100px;
 }
 
 #latest-projects {
@@ -84,9 +96,9 @@ div.form-group {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-    width : 100%;
-    position : fixed;
-    top : 0px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
   }
 
   .homepage-container {
@@ -101,15 +113,15 @@ div.form-group {
   }
 
   .homepage-text {
-    width : 70%;
+    width: 70%;
     padding-left: 0px;
-    padding-right : 0px;
+    padding-right: 0px;
   }
 
-  .homepage-gif{
-    width : 70%;
-    margin-left : 15px;
-    margin-right : 15px;
+  .homepage-gif {
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   h2 {
@@ -124,7 +136,7 @@ div.form-group {
 
   #about {
     padding-top: 100px;
-    margin-bottom : 50px;
+    margin-bottom: 50px;
   }
 
   div.form-group {

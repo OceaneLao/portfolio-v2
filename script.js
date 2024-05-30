@@ -263,19 +263,3 @@ function displayIcons() {
   });
 }
 displayIcons();
-
-//Formulaire de contact
-// Tutoriel : https://www.youtube.com/watch?v=MV-Aqkjju64&ab_channel=AshisCoding
-// function sendEmail(){
-//   Email.send({
-//     SecureToken : "c4102fca-1914-4196-96e0-e7043891df1a",
-//     To : 'oceane.lao1@gmail.com',
-//     From : document.getElementById("email").value,
-//     Subject : "Contact form Portfolio",
-//     Body : "Name:" + document.getElementById("name").value
-//     + "<br> Email : " + document.getElementById("email").value
-//     + "<br> Message : " + document.getElementById("message").value
-// }).then(
-//   message => alert("Message envoyé avec succès !")
-// );
-// }
