@@ -8,28 +8,12 @@
     "alt": "Crèche Pierre et le Loup mockup website"
   },
   {
-    "picture": "assets/img/web_dynamique_javascript.png",
-    "title": "Portfolio",
-    "date": "12 Avril 2024",
-    "description": "Consultez la première version de mon portfolio créé et développé en pur Vanille Javascript. Le but étant de comprendre les fonctionnalités et les limites de ce langage.",
-    "url": "https://oceanelao.github.io/portfolio/",
-    "alt": "Portfolio mockup website"
-  },
-  {
     "picture": "assets/img/osez-la-gourmandise.png",
     "title": "Osez La Gourmandise",
     "date": "9 Avril 2024",
     "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites.",
     "url": "https://www.osezlagourmandise.com/",
     "alt": "Osez La Gourmandise mockup website"
-  },
-  {
-    "picture": "assets/img/php_to_do_list.png",
-    "title": "To do list",
-    "date": "14 Décembre 2023",
-    "description": "La to-do-list est un projet basé sur le langage de PHP. Ce projet est basé sur la méthode CRUD (Create, Read, Update and Delete) avec la manipulation de la base de données.",
-    "url": "",
-    "alt": "To do list mockup website"
   },
   {
     "picture": "assets/img/vue_js_bts.png",
