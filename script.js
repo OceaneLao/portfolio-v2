@@ -1,37 +1,3 @@
-// Déclarer une fonction reveal pour révéler les éléments lors du défilement
-function reveal() {
-  let reveals = document.querySelectorAll(".reveal");
-
-  // Utiliser forEach pour sélectionner chaque reveal
-  reveals.forEach(element => {
-    // Récupèrer la position verticale de l'élément par rapport au haut de la fenêtre
-    let revealTop = element.getBoundingClientRect().top;
-    // Récupèrer la hauteur de la fenêtre
-    let windowHeight = window.innerHeight;
-    // Point de révélation : à quelle distance du haut de la fenêtre l'élément doit être révélé
-    let revealPoint = 150;
-
-    // Créer une condition qui vérifie si l'élément est dans la zone de révélation
-    if (revealTop < windowHeight - revealPoint) {
-      // Ajouter la classe "active" pour appliquer les styles de révélation
-      element.classList.add("active");
-      element.style.position = "relative";
-      element.style.transform = "translateY(0px)";
-      element.style.opacity = 1;
-      element.style.transition = "opacity 0.2s ease";
-    } else {
-      // Si l'élément n'est pas dans la zone de révélation, retire la classe "active"
-      element.classList.remove("active");
-      element.style.transform = "translateY(150px)";
-      element.style.opacity = 0;
-    }
-  });
-}
-// Ajouter d'un écouteur d'événements de défilement à la fenêtre
-window.addEventListener("scroll", reveal);
-// Appeler la fonction reveal pour révéler les éléments visibles lors du chargement de la page
-reveal();
-
 // Déclarer une fonction pour afficher les cards "Mes derniers projets"
 function displayCards(cards) {
   // Parcourir les données dans le fichier JSON

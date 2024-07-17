@@ -54,7 +54,7 @@ p {
 }
 
 button {
-  background-image: none;
+  background-color : #fff;
   padding: 15px 50px;
   border-radius: 50px;
   border: none;
@@ -68,6 +68,11 @@ button:hover {
   box-shadow: 5px 5px 15px #a024c2;
   -webkit-transition: box-shadow 0.3s ease; /* Préfixe pour Safari */
   transition: box-shadow 0.3s ease;
+}
+
+.icons:hover {
+  filter: drop-shadow(5px 5px 5px #a024c2) ;
+  -webkit-filter: drop-shadow(5px 5px 5px #a024c2); /* Préfixe pour Safari */
 }
 
 .homepage-gif {
