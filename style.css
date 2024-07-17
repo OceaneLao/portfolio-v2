@@ -90,6 +90,7 @@ div.form-group {
 }
 
 @media screen and (max-width: 767px) {
+
   .display-menu-mobile-first {
     background-image: url("assets/img/Background_V1.png");
     background-size: cover;

@@ -26,17 +26,6 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Océane LAO - Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/Oceane.png" />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "NYRdWigbBLLTmQsC_",
-        });
-      })();
-    </script>
     <!-- HTML Meta Tags -->
     <meta
       name="description"
@@ -75,10 +64,25 @@
   </head>
 
   <body class="text-light">
-    <header class="fixed-top pt-lg-3 pt-sm-2 pb-lg-3 pb-sm-4">
+    <header class="fixed-top">
       <nav
-        class="d-flex justify-content-lg-center justify-content-end align-items-lg-center pt-3 pb-3 text-light me-3"
-      ></nav>
+        class="d-flex justify-content-center align-items-center pt-3 pb-2"
+      >
+        <ul class="list-inline">
+          <li class="list-inline-item px-lg-5">
+            Accueil
+          </li>
+          <li class="list-inline-item px-lg-5">
+            Mes projets
+          </li>
+          <li class="list-inline-item px-lg-5">
+            A propos
+          </li>
+          <li class="list-inline-item px-lg-5">
+            Contact
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <div
@@ -104,7 +108,7 @@
     </div>
 
     <div id="latest-projects">
-      <h2 class="text-center mt-5 mb-5">Mes derniers projets</h2>
+      <h2 class="text-center mt-5 mb-5">Mes projets</h2>
       <div class="container reveal">
         <div class="card-display d-flex flex-wrap mb-5"></div>
         <div class="text-center mb-5">
@@ -148,44 +152,32 @@
     <div id="contact" class="container text-center mb-3 reveal">
       <h2 class="text-center mt-5 mb-3">Contact</h2>
 
-      <div class="icons-container container text-center"></div>
+      <p>
+        Retrouvez-moi sur mes réseaux sociaux
+      </p>
 
-      <p class="mt-3 mb-3">N'hésitez pas à prendre contact avec moi !</p>
+      <div class="icons-container container text-center">
+        <a href="https://www.linkedin.com/in/laooceane/">
+          <img src="assets/img/mdi_linkedin.png" alt="Logo LinkedIn">
+        </a>
+        
+        <a href="https://www.behance.net/laooceane">
+          <img src="assets/img/devicon-plain_behance.png" alt="">
+        </a>
+        
+        <a href="https://github.com/OceaneLao">
+          <img src="assets/img/mdi_github.png" alt="Logo Github">
+        </a>
+      </div>
 
-      <div
-        class="form-group container d-flex flex-column justify-content-center"
-        onsubmit="sendEmail(); reset(); return false;"
-        class="d-flex flex-column"
-      >
-        <input
-          type="text"
-          id="name"
-          placeholder="Entrez votre nom"
-          class="form-control mb-3 p-2"
-          required
-        />
-        <input
-          type="email"
-          id="email"
-          placeholder="Entrez votre adresse e-mail"
-          class="form-control mb-3 p-2"
-          required
-        />
-        <textarea
-          id="message"
-          rows="5"
-          placeholder="Ecrivez votre message"
-          class="form-control mb-3 p-2"
-          required
-        ></textarea>
-      </div>
-      <div class="button-submit">
-        <button type="submit" onclick="sendMail()">Envoyez</button>
-      </div>
+    <div>
+      <p>
+        Consulter mon CV en PDF (Google Drive)
+      </p>
     </div>
 
     <footer class="container pt-2 pb-2">
-      <p class="text-center">Portofolio - LAO Océane</p>
+      <p class="text-center">Portofolio 2024 - LAO Océane</p>
     </footer>
 
     <script src="script.js"></script>
