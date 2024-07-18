@@ -52,21 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("projects.json")
     .then((res) => res.json())
     .then((cards) => {
-      displayCards(cards.slice(0, 2));
-    })
-    .catch((error) => console.error("Unable to fetch data:", error));
-});
-
-// Sélectionner le bouton "En voir plus"
-let buttonSeeMore = document.getElementsByClassName("button-see-more")[0];
-// Ajouter un gestionnaire d'évènements qui va générer les autres données dans le fichier JSON lorsque le bouton sera cliqué
-buttonSeeMore.addEventListener("click", function () {
-  fetch("projects.json")
-    .then((res) => res.json())
-    .then((cards) => {
-      displayCards(cards.slice(2));
-      // A surveiller si plus de projets + test
-      buttonSeeMore.style.display = "none";
+      displayCards(cards);
     })
     .catch((error) => console.error("Unable to fetch data:", error));
 });

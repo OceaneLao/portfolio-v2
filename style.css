@@ -63,16 +63,18 @@ button {
   transition: box-shadow 0.3s ease;
 }
 
+a:hover {
+  text-decoration: none;
+  filter: drop-shadow(5px 5px 5px #a024c2) ;
+  -webkit-filter: drop-shadow(5px 5px 5px #a024c2); /* Préfixe pour Safari */
+}
+
 button:hover {
+  text-decoration: none;
   background-color: #fff;
   box-shadow: 5px 5px 15px #a024c2;
   -webkit-transition: box-shadow 0.3s ease; /* Préfixe pour Safari */
   transition: box-shadow 0.3s ease;
-}
-
-.icons:hover {
-  filter: drop-shadow(5px 5px 5px #a024c2) ;
-  -webkit-filter: drop-shadow(5px 5px 5px #a024c2); /* Préfixe pour Safari */
 }
 
 .homepage-gif {

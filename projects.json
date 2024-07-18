@@ -1,34 +1,34 @@
 [
   {
-    "picture": "assets/img/creche_pierre_et_le_loup.png",
+    "picture": "assets/img/PlessisTechnology_Website.png",
+    "title": "Plessis Technology",
+    "date": "Juillet 2024",
+    "description": "Plessis Technology est une entreprise spécialisée dans l'intégration de l'IA, de la blockchain et des NFT. J'ai refais la refont du site web dans le but d'améliorer le design et de moderniser le site web.",
+    "url": "http://plessis-technology-com.ibrave.host/",
+    "alt": "Plessis Technology mockup website"
+  },
+  {
+    "picture": "assets/img/CrechePierreEtLeLoup_Website.png",
     "title": "Crèche Pierre et le Loup",
-    "date": "19 Février 2024 - 15 Avril 2024",
+    "date": "Février 2024 - Avril 2024",
     "description": "Dans le cadre d'un stage de 2 mois, j'ai réalisé un site vitrine pour une crèche avec Wordpress. J'ai appris à utiliser la base de Wordpress, créer un thème et utiliser les extensions gratuites à disposition.",
     "url": "https://www.crechepierreetleloup.fr/",
     "alt": "Crèche Pierre et le Loup mockup website"
   },
   {
-    "picture": "assets/img/osez-la-gourmandise.png",
+    "picture": "assets/img/OsezLaGourmandise_Website.png",
     "title": "Osez La Gourmandise",
-    "date": "9 Avril 2024",
+    "date": "Avril 2024",
     "description": "Osez la gourmandise est un projet réalisé sur Wordpress. Le thème a été créé avec le langage PHP et les fonctionnalités ont été utilisées avec des extensions gratuites.",
     "url": "https://www.osezlagourmandise.com/",
     "alt": "Osez La Gourmandise mockup website"
   },
   {
-    "picture": "assets/img/vue_js_bts.png",
-    "title": "BTS",
-    "date": "7 Décembre 2023",
-    "description": "Ce projet est basé sur la pratique de VueJS ayant pour thème le célèbre groupe de K-pop : BTS. L'objectif étant de s'initier à ce langage et d'en comprendre le fonctionnement.",
-    "url": "https://oceanelao.github.io/my-gallery-bts/",
-    "alt": "BTS Vue JS mockup website"
-  },
-  {
-    "picture": "assets/img/web_statique_magic_shop.png",
-    "title": "Magic Shop",
-    "date": "14 Juillet 2023",
-    "description": "Magic Shop est un site web statique dans lequel le langage HTML et la feuille de style CSS ont été uniquement utilisés. De plus, l'adaptation à la taille des écrans a été intégrée.",
-    "url": "https://oceanelao.github.io/magic-shop/",
-    "alt": "Magic Shop mockup website"
+    "picture": "assets/img/Metallum_Website.png",
+    "title": "Metallum",
+    "date": "Mars 2022 - Janvier 2023",
+    "description": "Metallum est un projet fictif que j'ai présenté devant un jury pour valider mon titre professionnel Concepteur Designer Designer UI. J'ai créé des contenus digitaux pour les intégrer dans un site web sur Wordpress et j'ai fait la promotion du site web avec une vidéo et des modélisations des produits en 3D.",
+    "url": "https://www.metallum-projet.fr/",
+    "alt": "Metallum mockup website"
   }
 ]
